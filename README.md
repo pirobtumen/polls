@@ -34,6 +34,6 @@ npm run serve
 
 ## Screenshots
 
-![](https://raw.githubusercontent.com/pirobtumen/polls/master/screenshots/polls1.PNG?token=ACIfrlceBmzomQkr3jdANQLY3e5YMRg_ks5cN7HawA%3D%3D)
+![](/screenshots/polls1.png?raw=true)
 
-![](https://raw.githubusercontent.com/pirobtumen/polls/master/screenshots/polls2.PNG?token=ACIfrooaROWgsljytuN0uqNX5pefYO_zks5cN7IawA%3D%3D)
+![](/screenshots/polls2.png?raw=true)
