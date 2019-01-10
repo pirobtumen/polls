@@ -6,21 +6,34 @@ The backend is very simple. It's build using node.js + express, and a reverse pr
 
 The polls and votes are keep in memory (RAM), so restarting the app will reset all the stats and data.
 
+
 ### Setup for development
 
 **Console 1** - Launch backend
 
-> cd backend
-> npm install
-> npm run serve
+```
+cd backend
+npm install
+npm run serve
+```
 
 **Console 2**
 
-> $ cd backend
-> $ npm run proxy
+```
+cd backend
+npm run proxy
+```
 
 **Console 3**
 
-> $ cd frontend
-> $ npm install
-> $ npm run serve
+```
+cd frontend
+npm install
+npm run serve
+```
+
+## Screenshots
+
+![](https://raw.githubusercontent.com/pirobtumen/polls/master/screenshots/polls1.PNG?token=ACIfrlceBmzomQkr3jdANQLY3e5YMRg_ks5cN7HawA%3D%3D)
+
+![](https://raw.githubusercontent.com/pirobtumen/polls/master/screenshots/polls2.PNG?token=ACIfrooaROWgsljytuN0uqNX5pefYO_zks5cN7IawA%3D%3D)
