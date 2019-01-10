@@ -34,6 +34,6 @@ npm run serve
 
 ## Screenshots
 
-![](/screenshots/polls1.png?raw=true)
+![](/screenshots/polls1.PNG?raw=true)
 
-![](/screenshots/polls2.png?raw=true)
+![](/screenshots/polls2.PNG?raw=true)
