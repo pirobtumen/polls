@@ -1,0 +1,25 @@
+version: '3'
+services:
+  polls-backend: 
+    container_name: polls-backend
+    build: 
+      context: .
+      dockerfile: backend.Dockerfile
+    expose: 
+      - "8081"
+  polls-frontend:
+    container_name: polls-frontend
+    build: 
+      context: .
+      dockerfile: frontend.Dockerfile
+    expose: 
+      - "8080"
+  polls-proxy: 
+    container_name: polls-proxy
+    build:
+      context: .
+      dockerfile: proxy.Dockerfile
+    environment:
+      - ENV=PROD
+    ports:
+      - "80:80"
